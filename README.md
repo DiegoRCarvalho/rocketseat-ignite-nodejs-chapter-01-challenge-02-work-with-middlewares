@@ -18,10 +18,10 @@
 
 ### Checks Todo Exists
 
-- [] Should be able to put user and todo in request when both exits
-- [] Should not be able to put user and todo in request when user does not exists
-- [] Should not be able to put user and todo in request when todo id is not uuid
-- [] Should not be able to put user and todo in request when todo does not exists
+- [X] Should be able to put user and todo in request when both exits
+- [X] Should not be able to put user and todo in request when user does not exists
+- [X] Should not be able to put user and todo in request when todo id is not uuid
+- [X] Should not be able to put user and todo in request when todo does not exists
 
 
 ### Find User By Id
