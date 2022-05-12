@@ -26,5 +26,5 @@
 
 ### Find User By Id
 
-- [] Should be able to find user by id route param and pass it to request.user
-- [] Should not be able to pass user to request.user when it does not exists
+- [X] Should be able to find user by id route param and pass it to request.user
+- [X] Should not be able to pass user to request.user when it does not exists
