@@ -12,8 +12,8 @@
 
 ### Checks Exists User Account
 
-- [] Should be able to find user by username in header and pass it to request.user
-- [] Should not be able to find a non existing user by username in header
+- [X] Should be able to find user by username in header and pass it to request.user
+- [X] Should not be able to find a non existing user by username in header
 
 
 ### Checks Todo Exists
