@@ -25,7 +25,13 @@ function checksExistsUserAccount(request, response, next) {
 }
 
 function checksCreateTodosUserAvailability(request, response, next) {
-  // Complete aqui
+  const { user } = request
+
+  if (user.pro == false && user.todos <= 10 || user.pro == true) {
+    return next()
+  }
+  
+  return response.status(403).json({ error: 'You can not post more than 10 posts in free account!' })
 }
 
 function checksTodoExists(request, response, next) {

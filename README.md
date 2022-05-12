@@ -5,9 +5,9 @@
 
 ### Checks Create Todos User Availability
 
-- [] Should be able to let user create a new todo when is in free plan and have less than ten todos
-- [] Should not be able to let user create a new todo when is not Pro and already have ten todos
-- [] Should be able to let user create infinite new todos when is in Pro plan
+- [X] Should be able to let user create a new todo when is in free plan and have less than ten todos
+- [X] Should not be able to let user create a new todo when is not Pro and already have ten todos
+- [X] Should be able to let user create infinite new todos when is in Pro plan
 
 
 ### Checks Exists User Account
